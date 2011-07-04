@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31F2E34D13C1DE0500B161A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F2E34C13C1DE0500B161A4 /* UIKit.framework */; };
+		31F2E34F13C1DE0500B161A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F2E34E13C1DE0500B161A4 /* Foundation.framework */; };
+		31F2E35113C1DE0500B161A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F2E35013C1DE0500B161A4 /* CoreGraphics.framework */; };
+		31F2E35713C1DE0500B161A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31F2E35513C1DE0500B161A4 /* InfoPlist.strings */; };
+		31F2E35A13C1DE0500B161A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F2E35913C1DE0500B161A4 /* main.m */; };
+		31F2E35D13C1DE0500B161A4 /* WifiMEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F2E35C13C1DE0500B161A4 /* WifiMEAppDelegate.m */; };
+		31F2E36013C1DE0500B161A4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31F2E35E13C1DE0500B161A4 /* MainWindow.xib */; };
+		31F2E36713C1DE0500B161A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F2E34C13C1DE0500B161A4 /* UIKit.framework */; };
+		31F2E36813C1DE0500B161A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F2E34E13C1DE0500B161A4 /* Foundation.framework */; };
+		31F2E36913C1DE0500B161A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F2E35013C1DE0500B161A4 /* CoreGraphics.framework */; };
+		31F2E37113C1DE0500B161A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31F2E36F13C1DE0500B161A4 /* InfoPlist.strings */; };
+		31F2E37413C1DE0500B161A4 /* WifiMETests.h in Resources */ = {isa = PBXBuildFile; fileRef = 31F2E37313C1DE0500B161A4 /* WifiMETests.h */; };
+		31F2E37613C1DE0500B161A4 /* WifiMETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F2E37513C1DE0500B161A4 /* WifiMETests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31F2E36A13C1DE0500B161A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31F2E33F13C1DE0500B161A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31F2E34713C1DE0500B161A4;
+			remoteInfo = WifiME;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31F2E34813C1DE0500B161A4 /* WifiME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WifiME.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F2E34C13C1DE0500B161A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		31F2E34E13C1DE0500B161A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		31F2E35013C1DE0500B161A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		31F2E35413C1DE0500B161A4 /* WifiME-Info.plist */ = {isa = PBXFileReference; path = "WifiME-Info.plist"; sourceTree = "<group>"; };
+		31F2E35613C1DE0500B161A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31F2E35813C1DE0500B161A4 /* WifiME-Prefix.pch */ = {isa = PBXFileReference; path = "WifiME-Prefix.pch"; sourceTree = "<group>"; };
+		31F2E35913C1DE0500B161A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31F2E35B13C1DE0500B161A4 /* WifiMEAppDelegate.h */ = {isa = PBXFileReference; path = WifiMEAppDelegate.h; sourceTree = "<group>"; };
+		31F2E35C13C1DE0500B161A4 /* WifiMEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WifiMEAppDelegate.m; sourceTree = "<group>"; };
+		31F2E35F13C1DE0500B161A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		31F2E36613C1DE0500B161A4 /* WifiMETests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WifiMETests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F2E36E13C1DE0500B161A4 /* WifiMETests-Info.plist */ = {isa = PBXFileReference; path = "WifiMETests-Info.plist"; sourceTree = "<group>"; };
+		31F2E37013C1DE0500B161A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31F2E37213C1DE0500B161A4 /* WifiMETests-Prefix.pch */ = {isa = PBXFileReference; path = "WifiMETests-Prefix.pch"; sourceTree = "<group>"; };
+		31F2E37313C1DE0500B161A4 /* WifiMETests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WifiMETests.h; sourceTree = "<group>"; };
+		31F2E37513C1DE0500B161A4 /* WifiMETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WifiMETests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31F2E34513C1DE0500B161A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F2E34D13C1DE0500B161A4 /* UIKit.framework in Frameworks */,
+				31F2E34F13C1DE0500B161A4 /* Foundation.framework in Frameworks */,
+				31F2E35113C1DE0500B161A4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31F2E36213C1DE0500B161A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F2E36713C1DE0500B161A4 /* UIKit.framework in Frameworks */,
+				31F2E36813C1DE0500B161A4 /* Foundation.framework in Frameworks */,
+				31F2E36913C1DE0500B161A4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31F2E33D13C1DE0500B161A4 = {
+			isa = PBXGroup;
+			children = (
+				31F2E35213C1DE0500B161A4 /* WifiME */,
+				31F2E36C13C1DE0500B161A4 /* WifiMETests */,
+				31F2E34B13C1DE0500B161A4 /* Frameworks */,
+				31F2E34913C1DE0500B161A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31F2E34913C1DE0500B161A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31F2E34813C1DE0500B161A4 /* WifiME.app */,
+				31F2E36613C1DE0500B161A4 /* WifiMETests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31F2E34B13C1DE0500B161A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31F2E34C13C1DE0500B161A4 /* UIKit.framework */,
+				31F2E34E13C1DE0500B161A4 /* Foundation.framework */,
+				31F2E35013C1DE0500B161A4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31F2E35213C1DE0500B161A4 /* WifiME */ = {
+			isa = PBXGroup;
+			children = (
+				31F2E35B13C1DE0500B161A4 /* WifiMEAppDelegate.h */,
+				31F2E35C13C1DE0500B161A4 /* WifiMEAppDelegate.m */,
+				31F2E35E13C1DE0500B161A4 /* MainWindow.xib */,
+				31F2E35313C1DE0500B161A4 /* Supporting Files */,
+			);
+			path = WifiME;
+			sourceTree = "<group>";
+		};
+		31F2E35313C1DE0500B161A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31F2E35413C1DE0500B161A4 /* WifiME-Info.plist */,
+				31F2E35513C1DE0500B161A4 /* InfoPlist.strings */,
+				31F2E35813C1DE0500B161A4 /* WifiME-Prefix.pch */,
+				31F2E35913C1DE0500B161A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31F2E36C13C1DE0500B161A4 /* WifiMETests */ = {
+			isa = PBXGroup;
+			children = (
+				31F2E37313C1DE0500B161A4 /* WifiMETests.h */,
+				31F2E37513C1DE0500B161A4 /* WifiMETests.m */,
+				31F2E36D13C1DE0500B161A4 /* Supporting Files */,
+			);
+			path = WifiMETests;
+			sourceTree = "<group>";
+		};
+		31F2E36D13C1DE0500B161A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31F2E36E13C1DE0500B161A4 /* WifiMETests-Info.plist */,
+				31F2E36F13C1DE0500B161A4 /* InfoPlist.strings */,
+				31F2E37213C1DE0500B161A4 /* WifiMETests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31F2E34713C1DE0500B161A4 /* WifiME */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31F2E37913C1DE0500B161A4 /* Build configuration list for PBXNativeTarget "WifiME" */;
+			buildPhases = (
+				31F2E34413C1DE0500B161A4 /* Sources */,
+				31F2E34513C1DE0500B161A4 /* Frameworks */,
+				31F2E34613C1DE0500B161A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WifiME;
+			productName = WifiME;
+			productReference = 31F2E34813C1DE0500B161A4 /* WifiME.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31F2E36513C1DE0500B161A4 /* WifiMETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31F2E37C13C1DE0500B161A4 /* Build configuration list for PBXNativeTarget "WifiMETests" */;
+			buildPhases = (
+				31F2E36113C1DE0500B161A4 /* Sources */,
+				31F2E36213C1DE0500B161A4 /* Frameworks */,
+				31F2E36313C1DE0500B161A4 /* Resources */,
+				31F2E36413C1DE0500B161A4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31F2E36B13C1DE0500B161A4 /* PBXTargetDependency */,
+			);
+			name = WifiMETests;
+			productName = WifiMETests;
+			productReference = 31F2E36613C1DE0500B161A4 /* WifiMETests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31F2E33F13C1DE0500B161A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Bme;
+			};
+			buildConfigurationList = 31F2E34213C1DE0500B161A4 /* Build configuration list for PBXProject "WifiME" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31F2E33D13C1DE0500B161A4;
+			productRefGroup = 31F2E34913C1DE0500B161A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31F2E34713C1DE0500B161A4 /* WifiME */,
+				31F2E36513C1DE0500B161A4 /* WifiMETests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31F2E34613C1DE0500B161A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F2E35713C1DE0500B161A4 /* InfoPlist.strings in Resources */,
+				31F2E36013C1DE0500B161A4 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31F2E36313C1DE0500B161A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F2E37113C1DE0500B161A4 /* InfoPlist.strings in Resources */,
+				31F2E37413C1DE0500B161A4 /* WifiMETests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31F2E36413C1DE0500B161A4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31F2E34413C1DE0500B161A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F2E35A13C1DE0500B161A4 /* main.m in Sources */,
+				31F2E35D13C1DE0500B161A4 /* WifiMEAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31F2E36113C1DE0500B161A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F2E37613C1DE0500B161A4 /* WifiMETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31F2E36B13C1DE0500B161A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31F2E34713C1DE0500B161A4 /* WifiME */;
+			targetProxy = 31F2E36A13C1DE0500B161A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31F2E35513C1DE0500B161A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31F2E35613C1DE0500B161A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		31F2E35E13C1DE0500B161A4 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31F2E35F13C1DE0500B161A4 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		31F2E36F13C1DE0500B161A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31F2E37013C1DE0500B161A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31F2E37713C1DE0500B161A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		31F2E37813C1DE0500B161A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		31F2E37A13C1DE0500B161A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WifiME/WifiME-Prefix.pch";
+				INFOPLIST_FILE = "WifiME/WifiME-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		31F2E37B13C1DE0500B161A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WifiME/WifiME-Prefix.pch";
+				INFOPLIST_FILE = "WifiME/WifiME-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		31F2E37D13C1DE0500B161A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WifiME.app/WifiME";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WifiMETests/WifiMETests-Prefix.pch";
+				INFOPLIST_FILE = "WifiMETests/WifiMETests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		31F2E37E13C1DE0500B161A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WifiME.app/WifiME";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WifiMETests/WifiMETests-Prefix.pch";
+				INFOPLIST_FILE = "WifiMETests/WifiMETests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31F2E34213C1DE0500B161A4 /* Build configuration list for PBXProject "WifiME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31F2E37713C1DE0500B161A4 /* Debug */,
+				31F2E37813C1DE0500B161A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31F2E37913C1DE0500B161A4 /* Build configuration list for PBXNativeTarget "WifiME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31F2E37A13C1DE0500B161A4 /* Debug */,
+				31F2E37B13C1DE0500B161A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31F2E37C13C1DE0500B161A4 /* Build configuration list for PBXNativeTarget "WifiMETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31F2E37D13C1DE0500B161A4 /* Debug */,
+				31F2E37E13C1DE0500B161A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31F2E33F13C1DE0500B161A4 /* Project object */;
+}
