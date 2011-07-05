@@ -10,12 +10,15 @@
 
 @implementation WifiMEAppDelegate
 
-
 @synthesize window=_window;
+@synthesize rootController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.rootController = [[RootViewController alloc] init];
+    
+    [self.window addSubview:rootController.view];
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -61,6 +64,7 @@
 
 - (void)dealloc
 {
+    [rootController release];
     [_window release];
     [super dealloc];
 }

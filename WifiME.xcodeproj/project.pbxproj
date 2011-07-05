@@ -20,6 +20,8 @@
 		31F2E37113C1DE0500B161A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31F2E36F13C1DE0500B161A4 /* InfoPlist.strings */; };
 		31F2E37413C1DE0500B161A4 /* WifiMETests.h in Resources */ = {isa = PBXBuildFile; fileRef = 31F2E37313C1DE0500B161A4 /* WifiMETests.h */; };
 		31F2E37613C1DE0500B161A4 /* WifiMETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F2E37513C1DE0500B161A4 /* WifiMETests.m */; };
+		31F2E38213C1DE2A00B161A4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F2E38013C1DE2A00B161A4 /* RootViewController.m */; };
+		31F2E38313C1DE2A00B161A4 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31F2E38113C1DE2A00B161A4 /* RootViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,19 +39,22 @@
 		31F2E34C13C1DE0500B161A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		31F2E34E13C1DE0500B161A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		31F2E35013C1DE0500B161A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		31F2E35413C1DE0500B161A4 /* WifiME-Info.plist */ = {isa = PBXFileReference; path = "WifiME-Info.plist"; sourceTree = "<group>"; };
+		31F2E35413C1DE0500B161A4 /* WifiME-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WifiME-Info.plist"; sourceTree = "<group>"; };
 		31F2E35613C1DE0500B161A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		31F2E35813C1DE0500B161A4 /* WifiME-Prefix.pch */ = {isa = PBXFileReference; path = "WifiME-Prefix.pch"; sourceTree = "<group>"; };
+		31F2E35813C1DE0500B161A4 /* WifiME-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WifiME-Prefix.pch"; sourceTree = "<group>"; };
 		31F2E35913C1DE0500B161A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		31F2E35B13C1DE0500B161A4 /* WifiMEAppDelegate.h */ = {isa = PBXFileReference; path = WifiMEAppDelegate.h; sourceTree = "<group>"; };
+		31F2E35B13C1DE0500B161A4 /* WifiMEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WifiMEAppDelegate.h; sourceTree = "<group>"; };
 		31F2E35C13C1DE0500B161A4 /* WifiMEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WifiMEAppDelegate.m; sourceTree = "<group>"; };
 		31F2E35F13C1DE0500B161A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		31F2E36613C1DE0500B161A4 /* WifiMETests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WifiMETests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		31F2E36E13C1DE0500B161A4 /* WifiMETests-Info.plist */ = {isa = PBXFileReference; path = "WifiMETests-Info.plist"; sourceTree = "<group>"; };
+		31F2E36E13C1DE0500B161A4 /* WifiMETests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WifiMETests-Info.plist"; sourceTree = "<group>"; };
 		31F2E37013C1DE0500B161A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		31F2E37213C1DE0500B161A4 /* WifiMETests-Prefix.pch */ = {isa = PBXFileReference; path = "WifiMETests-Prefix.pch"; sourceTree = "<group>"; };
+		31F2E37213C1DE0500B161A4 /* WifiMETests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WifiMETests-Prefix.pch"; sourceTree = "<group>"; };
 		31F2E37313C1DE0500B161A4 /* WifiMETests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WifiMETests.h; sourceTree = "<group>"; };
 		31F2E37513C1DE0500B161A4 /* WifiMETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WifiMETests.m; sourceTree = "<group>"; };
+		31F2E37F13C1DE2A00B161A4 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		31F2E38013C1DE2A00B161A4 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		31F2E38113C1DE2A00B161A4 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		311C1B7213C3454000F89699 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				31F2E37F13C1DE2A00B161A4 /* RootViewController.h */,
+				31F2E38013C1DE2A00B161A4 /* RootViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		31F2E33D13C1DE0500B161A4 = {
 			isa = PBXGroup;
 			children = (
@@ -108,10 +122,11 @@
 		31F2E35213C1DE0500B161A4 /* WifiME */ = {
 			isa = PBXGroup;
 			children = (
+				31F2E35313C1DE0500B161A4 /* Supporting Files */,
 				31F2E35B13C1DE0500B161A4 /* WifiMEAppDelegate.h */,
 				31F2E35C13C1DE0500B161A4 /* WifiMEAppDelegate.m */,
-				31F2E35E13C1DE0500B161A4 /* MainWindow.xib */,
-				31F2E35313C1DE0500B161A4 /* Supporting Files */,
+				311C1B7213C3454000F89699 /* Views */,
+				31F2E38413C1DE4300B161A4 /* Nibs */,
 			);
 			path = WifiME;
 			sourceTree = "<group>";
@@ -145,6 +160,15 @@
 				31F2E37213C1DE0500B161A4 /* WifiMETests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31F2E38413C1DE4300B161A4 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				31F2E35E13C1DE0500B161A4 /* MainWindow.xib */,
+				31F2E38113C1DE2A00B161A4 /* RootViewController.xib */,
+			);
+			name = Nibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +243,7 @@
 			files = (
 				31F2E35713C1DE0500B161A4 /* InfoPlist.strings in Resources */,
 				31F2E36013C1DE0500B161A4 /* MainWindow.xib in Resources */,
+				31F2E38313C1DE2A00B161A4 /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +281,7 @@
 			files = (
 				31F2E35A13C1DE0500B161A4 /* main.m in Sources */,
 				31F2E35D13C1DE0500B161A4 /* WifiMEAppDelegate.m in Sources */,
+				31F2E38213C1DE2A00B161A4 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +335,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = Szasza;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = Szasza;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -326,7 +353,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = Szasza;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = Szasza;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -341,6 +369,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = Szasza;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -355,6 +384,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = Szasza;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WifiME/WifiME-Prefix.pch";
@@ -428,6 +458,7 @@
 				31F2E37B13C1DE0500B161A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31F2E37C13C1DE0500B161A4 /* Build configuration list for PBXNativeTarget "WifiMETests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +467,7 @@
 				31F2E37E13C1DE0500B161A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

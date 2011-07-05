@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RootViewController.h"
 
 @interface WifiMEAppDelegate : NSObject <UIApplicationDelegate> {
-
+    RootViewController *rootController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) RootViewController *rootController;
 
 @end
