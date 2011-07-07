@@ -11,9 +11,11 @@
 
 @interface WifiMEAppDelegate : NSObject <UIApplicationDelegate> {
     RootViewController *rootController;
+    UINavigationController  *navController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) RootViewController *rootController;
+@property (nonatomic, retain) UINavigationController *navController;
 
 @end
